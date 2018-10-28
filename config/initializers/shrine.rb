@@ -10,7 +10,7 @@ Shrine.plugin :activerecord # enable ActiveRecord support
 
 Shrine.plugin :determine_mime_type # check MIME TYPE
 Shrine.plugin :validation_helpers, default_messages: {
-    mime_type_inclusion: ->(whitelist) { # you may use whitelist variable to display allowed types
+    mime_type_inclusion: -> (whitelist) {
       "isn't of allowed type. It must be an image."
     }
 }
