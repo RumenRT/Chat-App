@@ -10,7 +10,7 @@ gem 'clearance', '~> 1.16'
 
 gem 'jquery-rails'
 
-gem 'shrine', '~> 2.6'
+gem 'shrine', '~> 3.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
