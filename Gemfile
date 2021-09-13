@@ -6,7 +6,7 @@ end
 
 ruby '2.5.1'
 
-gem 'clearance', '~> 1.16'
+gem 'clearance', '~> 2.5'
 
 gem 'jquery-rails'
 
